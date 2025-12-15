@@ -6,7 +6,12 @@ Authors@R: c(
     person("Jil", "Soni", email = "jil.soni@mail.utoronto.ca", role = c("aut", "cre")),
     person("Lamya", "Serhir", role = "aut")
     )
-Description: Creates customizable CONSORT-style flowcharts for randomized controlled trials (RCTs) using DiagrammeR.
+Description: Creates customizable CONSORT-style flowcharts for randomized controlled trials (RCTs) using DiagrammeR. 
+These flowcharts are found in the beginning of RCT research papers, summarizing the study's design and analysis. 
+This package takes a dataset and a column of values indicating the group names- typically, there is one control and one treatment group. 
+This package is made for RCTs that follow exactly two groups. Features like color, font, and text are customizable as they will not affect
+the flowchart structure. 
+
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
